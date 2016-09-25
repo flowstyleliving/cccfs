@@ -1,0 +1,253 @@
+body {
+  background: #edf0f5;
+  margin: 0;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* Main */
+
+#headerContainer {
+  background-color: #3b5998;
+  position: absolute;
+  width: 100%;
+  height: 85px;
+  border-bottom: 1px solid #133783;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, .52);
+}
+
+#globalContainer {
+  /*border: 1pt solid red;*/
+  padding-top: 85px;
+  height: 100%;
+}
+#footerContainer{
+  /*border: 1pt solid black;*/
+  height: 210px;
+  margin-top: 200px;
+  background-color: white;
+}
+
+/* headerContainer stuff */
+
+#fblogo img {
+  position: absolute;
+  float: left;
+  width: 195px;
+  /* border: 1pt solid red; */
+  margin-left: 95px;
+  margin-top: -10px;
+}
+#loginTable {
+  /*border: 10px;*/
+  display: table;
+  float: right;
+  right: 0px;
+  width: 300px;
+  margin-top: 16px;
+  padding-right: 136px;
+}
+#loginRow1 {
+  color: white;
+  cursor: pointer;
+  font-family: helvetica;
+  font-size: 9pt;
+  padding-right: 10px;
+}
+#loginRow3 {
+  color: #9daccb;
+}
+#persistBox {
+  left: 0px;
+  font-family: helvetica, arial, sans-serif;
+  color: #9daccb;
+  font-size: 9pt;
+}
+#fpass {
+  left: 0px;
+  font-family: helvetica, arial, sans-serif;
+  color: #9daccb;
+  font-size: 9pt;
+}
+#submit {
+  cursor: pointer;
+  background-color: #5b74a8;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 9pt;
+}
+a:link {
+  color: #9daccb;
+  text-decoration: none;
+}
+
+/* globalContainer stuff */
+/*connectContainer*/
+
+#connectContainer {
+  /*border: 1pt solid;*/
+  width: 500px;
+  height: 367px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+#connectHeader {
+  /*border: 1pt solid red;*/
+  font-size: 14pt;
+  font-family: helvetica neue, arial, sans-serif;
+}
+#connect1 {
+  display: block;
+  position: relative;
+  /*border: 1pt solid red;*/
+}
+
+#connect2{
+  padding-left: 5px;
+}
+.connectImg {
+  /*border: 1pt solid;*/
+  vertical-align: middle;
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+.connectWords {
+  /*border: 1pt solid blue;*/
+  padding: 20px;
+}
+.connectBoldWords {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13pt;
+  font-weight: bold;
+  padding-right: 10pt;
+}
+
+.connectFineWords {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10pt;
+}
+
+/*signUpContainer*/
+
+#signUpContainer{
+  /*border: 1pt solid yellow;*/
+  height: auto;
+  width: 500px;
+  float: right;
+  margin-top: -400px;
+}
+
+#signUpWords{
+  /*border: 1pt solid purple;*/
+  color: #333;
+  font-family: 'Freight Sans Bold', 'Helvetica Neue', 'Segoe UI', 'Malgun Gothic', Meiryo, 'Microsoft JhengHei', helvetica, arial, sans-serif ;
+}
+
+.inputName input{
+  width: 173px;
+  height: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.inputMisc input{
+  width: 380px;
+  height: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.gender input{
+  margin-left: 15px;
+  width: 15px;
+}
+
+.gender #signUpSubmit{
+    width: 194px;
+    height: 39px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 19pt;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    vertical-align: center;
+    line-height:10px;
+    background: linear-gradient(lightgreen, forestgreen);
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 28pt;
+}
+
+h2{
+  margin-bottom: 40px;
+}
+
+h4{
+  font-weight: 300;
+  margin: 0;
+  font-size: 14pt;
+  padding-bottom: 15px;
+}
+
+h6 {
+  font-weight: normal;
+}
+
+#createPages{
+  border-top: 1px solid #a0a9c0;
+  width: 400px;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+#createPages a:link{
+  color:#3b5998
+}
+/* footerContainer stuff */
+
+ul .uiList{
+  margin-top: -5px;
+}
+
+ul li{
+  display: inline;
+  padding: 4px;
+}
+
+#contentInfo{
+  border-top: 1px solid #a0a9c0;
+  margin-left: 10px;
+}
+
+#footerTable{
+  margin-left: 20px;
+  margin-right: 0;
+  color: #3b5998;
+}
+
+tr .1{
+  padding-right: 5px;
+}
+
+#footestFooter{
+  font-size:8pt;
+  margin-top: 30px;
+}

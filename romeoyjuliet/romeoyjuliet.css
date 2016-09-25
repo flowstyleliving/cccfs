@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+}
+
+h1{
+  text-align: center;
+}
+
+#ro{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+  font-size: 15pt;
+  line-height: .1;
+}
+
+#ju{
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+  font-size: 15pt;
+  line-height: .1;
+}
+
+#rope{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+#jupe{
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
+
+#foot{
+  font-size: 10pt;
+}

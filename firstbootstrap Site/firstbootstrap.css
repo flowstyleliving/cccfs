@@ -1,0 +1,85 @@
+body{
+  background-color: #DDE0E5;
+
+}
+
+/*Header*/
+
+#headerMain{
+  font-family: futura-heavy;
+  font-style: italic;
+}
+
+#headerSub{
+  padding-left: 5px;
+}
+
+#break{
+  border-top: 1pt solid black;
+}
+
+.page-header{
+  border: none;
+}
+
+/*Main*/
+
+.sectionContainer{
+  /*border: 1pt solid red;*/
+  height: 100%;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: 12em;
+}
+
+.h1center{
+  text-align: center;
+}
+
+#firstHTML{
+  border: none;
+  width: 100%;
+  height: 1000pt;
+}
+
+.videoCenter{
+  text-align: center;
+}
+
+form{
+  padding-bottom: 50px;
+}
+
+.musicContainer{
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+#store{
+  display: block;
+  text-align: center;
+  width: 100%
+}
+
+.form-group textarea{
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+#etsy td{
+  width: 100%
+}
+/*footer*/
+
+#footer{
+  /*border: 1pt solid red;*/
+  height: 100%;
+  width: 100%;
+}
+
+#footerPic img{
+  width: 80px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}

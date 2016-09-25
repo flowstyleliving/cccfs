@@ -1,0 +1,33 @@
+/*
+selector{
+  property: value;
+}
+*/
+
+body{
+  background-color: lightgrey;
+}
+
+p{
+  font-size: 10pt;
+  color: red;
+  font: times;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  font-size: 24pt;
+}
+
+h3{
+  font-size: 20pt;
+  color: yellow;
+  font-stretch: expanded;
+}
+
+h6{
+  color: purple;
+  font-size: 12pt;
+  font-style: italic;
+}
